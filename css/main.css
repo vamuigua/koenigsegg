@@ -39,7 +39,6 @@ body{
 
 /*Foot*/
 .foot{
-    background-image: url(../img/carfront.jpg);
+    background-color: rgb(39, 39, 39);
     height: 350px;
-    background-attachment: fixed;
 }
