@@ -10,11 +10,21 @@ body{
 
 .car-bg h1{
     text-align: center;
-    color: #fff;
+    color: #F12B24;
 }
 
 .car-bg p{
     text-align: center;
-    color: #fff;
+    color: #000;
     font-size: 30px;
+}
+
+/*man*/
+.man{
+}
+
+.man h2{
+    color: black;
+    text-align: center;
+    
 }
