@@ -1,3 +1,20 @@
 body{
 	width: 100%;
 }
+
+/*Car-bg*/
+.car-bg{
+    background-image: url(../img/maxresdefault.jpg);
+    background-attachment: fixed;
+}
+
+.car-bg h1{
+    text-align: center;
+    color: #fff;
+}
+
+.car-bg p{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
