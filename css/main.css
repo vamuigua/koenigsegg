@@ -1,44 +1,59 @@
-body{
-	width: 100%;
+body {
+    width: 100%;
 }
 
+
 /*Car-bg*/
-.car-bg{
+
+.car-bg {
     background-image: url(../img/maxresdefault.jpg);
     background-attachment: fixed;
 }
 
-.car-bg h1{
+.car-bg h1 {
     text-align: center;
     color: #F12B24;
 }
 
-.car-bg p{
+.car-bg p {
     text-align: center;
     color: #000;
     font-size: 30px;
 }
 
+
 /*man*/
-.man h2{
+
+.man h2 {
     color: black;
     text-align: center;
 }
 
+
 /*story*/
-.story{
+
+.story {
     background-image: url(../img/blue.jpg);
     background-attachment: fixed;
 }
 
+
 /*BLOGS*/
-.blog h2{
+
+.blog h2 {
     text-align: center;
-    
 }
 
+
 /*Foot*/
-.foot{
+
+.foot {
     background-color: rgb(39, 39, 39);
-    height: 350px;
+    height: 550px;
 }
+
+.foot a{
+    text-decoration: none;
+    color: #fff;
+}
+

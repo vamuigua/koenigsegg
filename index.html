@@ -1,199 +1,215 @@
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Koenigsegg</title>
-     <meta name="description" content="description here">
-     <meta name="keywords" content="keywords,here">
+    <meta name="description" content="description here">
+    <meta name="keywords" content="keywords,here">
 
     <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      
+
     <!--Foundation link-->
     <link rel="stylesheet" href="css/foundation-6.2.3/css/foundation.css">
-    <link rel="stylesheet" href="css/foundation-6.2.3/css/foundation.min.css"> 
+    <link rel="stylesheet" href="css/foundation-6.2.3/css/foundation.min.css">
     <link rel="stylesheet" href="css/foundation-6.2.3/css/app.css">
-    
+
     <!--Main Stylesheet-->
     <link rel="stylesheet" href="css/main.css">
-    
+
     <!--Font awesome icons-->
-    <link rel= "stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css"/>
-     
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css" />
+
     <!--Local Font awesome-->
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
-     
+
     <!--Ionicons link-->
     <link href='http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' rel='stylesheet' type='text/css'>
-    
+
     <!--Local Ionicons-->
     <link rel="stylesheet" href="css/ionicons-2.0.1/css/ionicons.min.css">
-    
+
     <!--Google Fonts-->
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
 </head>
+
 <body>
     <!--Sticky nav bar-->
-<div class="top-bar" style="background-color:rgba(255,252,240,0.7);position:fixed;z-index:5;width:100%;">
-  <div class="top-bar-title">
-    <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
+    <div class="top-bar" style="background-color:rgba(255,252,240,0.7);position:fixed;z-index:5;width:100%;">
+        <div class="top-bar-title">
+            <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
       <button class="menu-icon dark" type="button" data-toggle></button>
     </span>
-    <img src="img/logo_web_black_shadow_60.png">
-  </div>
-  <div id="responsive-menu">
-    <div class="top-bar-left">
-      <ul class="dropdown menu" data-dropdown-menu style="">
-        <li>
-          <a href="#">Cars</a>
-          <ul class="menu vertical">
-            <li><a href="#">Regera</a></li>
-            <li><a href="#">Agera RS</a></li>
-            <li><a href="#">Agera One</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Story</a></li>
-        <li><a href="#">Blogs</a></li>
-        <li><a href="#">Contact us</a></li>
-      </ul>
+            <img src="img/logo_web_black_shadow_60.png">
+        </div>
+        <div id="responsive-menu">
+            <div class="top-bar-left">
+                <ul class="dropdown menu" data-dropdown-menu style="">
+                    <li>
+                        <a href="#">Cars</a>
+                        <ul class="menu vertical">
+                            <li><a href="#">Regera</a></li>
+                            <li><a href="#">Agera RS</a></li>
+                            <li><a href="#">Agera One</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Story</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="top-bar-right">
+                <ul class="menu">
+                    <li>
+                        <input type="search" placeholder="Search">
+                    </li>
+                    <li>
+                        <button type="button" class="button">Search</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
-    <div class="top-bar-right">
-      <ul class="menu">
-        <li><input type="search" placeholder="Search"></li>
-        <li><button type="button" class="button">Search</button></li>
-      </ul>
-    </div>
-  </div>
-</div>
     <!--img slider-->
     <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
-         <ul class="orbit-container">
-    <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
-    <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
-    <li class="is-active orbit-slide">
-      <img class="orbit-image" src="img/01-koenigsegg-regera-geneva-2016-1.jpg" alt="Space">
-      <figcaption class="orbit-caption">Unvieling the REGERA</figcaption>
-    </li>
-    <li class="orbit-slide">
-      <img class="orbit-image" src="img/steering.jpg" alt="Space">
-      <figcaption class="orbit-caption">FEEL THE DRIVE!</figcaption>
-    </li>
-    <li class="orbit-slide">
-      <img class="orbit-image" src="img/koenigsegg-agera-r-wallpaper-2.jpg" alt="Space">
-      <figcaption class="orbit-caption">Classy</figcaption>
-    </li>
-    <li class="orbit-slide">
-      <img class="orbit-image" src="img/koenigsegg-agera-white-2.jpg" alt="Space">
-      <figcaption class="orbit-caption">SLEEK...!</figcaption>
-    </li>
-  </ul>
-  <nav class="orbit-bullets">
-    <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
-    <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
-    <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
-    <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
-  </nav>
-</div>
+        <ul class="orbit-container">
+            <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+            <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+            <li class="is-active orbit-slide">
+                <img class="orbit-image" src="img/01-koenigsegg-regera-geneva-2016-1.jpg" alt="Space">
+                <figcaption class="orbit-caption">Unvieling the REGERA</figcaption>
+            </li>
+            <li class="orbit-slide">
+                <img class="orbit-image" src="img/steering.jpg" alt="Space">
+                <figcaption class="orbit-caption">FEEL THE DRIVE!</figcaption>
+            </li>
+            <li class="orbit-slide">
+                <img class="orbit-image" src="img/koenigsegg-agera-r-wallpaper-2.jpg" alt="Space">
+                <figcaption class="orbit-caption">Classy</figcaption>
+            </li>
+            <li class="orbit-slide">
+                <img class="orbit-image" src="img/koenigsegg-agera-white-2.jpg" alt="Space">
+                <figcaption class="orbit-caption">SLEEK...!</figcaption>
+            </li>
+        </ul>
+        <nav class="orbit-bullets">
+            <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+            <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+            <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+            <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+        </nav>
+    </div>
     <!--2 cars aside-->
     <div class="row">
-  <div class="medium-6 columns"><img src="img/Regera_FRONT.jpg"></div>
-  <div class="medium-6 columns"><img src="img/AgeraRS_FRONT.jpg"></div>
-</div>
+        <div class="medium-6 columns"><img src="img/Regera_FRONT.jpg"></div>
+        <div class="medium-6 columns"><img src="img/AgeraRS_FRONT.jpg"></div>
+    </div>
     <!--Agera r-->
     <section class="car-bg">
-    <hr>
+        <hr>
         <h1>WHAT IS A KOENIGSEGG?</h1>
         <hr>
         <p>"Koenigsegg is a car but its much more than that,it preety much EVERYTHING..."</p>
         <div style="text-align:center">
-        <iframe width="960" height="515" src="https://www.youtube.com/embed/qeiKKgsvHyY" frameborder="0" allowfullscreen></iframe>
-            </div>
+            <iframe width="960" height="515" src="https://www.youtube.com/embed/qeiKKgsvHyY" frameborder="0" allowfullscreen></iframe>
+        </div>
     </section>
     <!--THE MAN-->
     <section class="man">
         <div style="position:absolute;">
-        <hr>
-        <h2 style="z-index:2;">A MAN AND HIS DREAM</h2>
-        <hr>
+            <hr>
+            <h2 style="z-index:2;">A MAN AND HIS DREAM</h2>
+            <hr>
             <h2>CHRISTIAN VON KOENIGSEGG</h2>
             <hr>
-            </div>
+        </div>
         <img src="img/DSC01954-Redigera-1600x1068.jpg" style="height:900px;">
         <!--Beginnings P-->
         <section class="story">
             <div class="row">
-  <div class="medium-6 columns"><img src="img/christianvankoenigsegg1.jpg"></div>
-  <div class="medium-6 columns" style="color:#fff;background-color:rgba(0,0,0,0.9);"><p>Like many young men, Christian von Koenigsegg was fascinated by machinery as a boy. He even went so far as to dream about creating his perfect sports car. In stark contrast to the rest of us, however, Christian actually went ahead and turned that dream into reality – at just 22 years of age.</p>
-<p>With extraordinary determination and vision, Christian explored the limits of both technology and innovation to create the Supercar of his dreams – the Koenigsegg CC. The Koenigsegg CC was the manifestation of a dream and its successful completion gave Christian the courage to continue, and to share his quest for perfection with others. Thus, the car company that bears his name was born.</p><p>The story of Koenigsegg is as fascinating and unique as the cars themselves. Christian was only 5 years old when he first saw a stop-motion film from Norway about a bicycle repairman who builds his own racing car. The film must have made an impression, as a young Christian grew up dreaming of creating the perfect sports car. Some 17 years later, and against all odds, he did just that.</p></div>
-</div>
-</section>
+                <div class="medium-6 columns"><img src="img/christianvankoenigsegg1.jpg"></div>
+                <div class="medium-6 columns" style="color:#fff;background-color:rgba(0,0,0,0.9);">
+                    <p>Like many young men, Christian von Koenigsegg was fascinated by machinery as a boy. He even went so far as to dream about creating his perfect sports car. In stark contrast to the rest of us, however, Christian actually went ahead and turned that dream into reality – at just 22 years of age.</p>
+                    <p>With extraordinary determination and vision, Christian explored the limits of both technology and innovation to create the Supercar of his dreams – the Koenigsegg CC. The Koenigsegg CC was the manifestation of a dream and its successful completion gave Christian the courage to continue, and to share his quest for perfection with others. Thus, the car company that bears his name was born.</p>
+                    <p>The story of Koenigsegg is as fascinating and unique as the cars themselves. Christian was only 5 years old when he first saw a stop-motion film from Norway about a bicycle repairman who builds his own racing car. The film must have made an impression, as a young Christian grew up dreaming of creating the perfect sports car. Some 17 years later, and against all odds, he did just that.</p>
+                </div>
+            </div>
+        </section>
     </section>
     <!--BLOGS-->
     <section class="blog">
-    <hr>
-    <h2>LATEST BLOG POSTS</h2>
-    <hr>
-    <div class="row">
-  <div class="medium-4 columns"><img src="img/first.jpg">
-      <h5>KOENIGSEGG ANALYSIS OF NURBURGRING ACCIDENT</h5>
-      <p>
-KOENIGSEGG ANALYSIS OF NURBURGRING ACCIDENT
-July 20, 2016 77 comments
-A Koenigsegg One:1 endured a severe crash at the Nürburgring Circuit in Germany last Monday, 18th July. The accident occurred at approximately 16:30 hours, some 3.5 hours into a session of Industry Pool testing that began at 13:00 hours. The vehicle has since returned to Ängelholm and upon examination of both the car and the...</p>
+        <hr>
+        <h2>LATEST BLOG POSTS</h2>
+        <hr>
+        <div class="row">
+            <div class="medium-4 columns"><img src="img/first.jpg">
+                <h5>KOENIGSEGG ANALYSIS OF NURBURGRING ACCIDENT</h5>
+                <p>
+                    KOENIGSEGG ANALYSIS OF NURBURGRING ACCIDENT July 20, 2016 77 comments A Koenigsegg One:1 endured a severe crash at the Nürburgring Circuit in Germany last Monday, 18th July. The accident occurred at approximately 16:30 hours, some 3.5 hours into a session of Industry Pool testing that began at 13:00 hours. The vehicle has since returned to Ängelholm and upon examination of both the car and the...</p>
+            </div>
+            <div class="medium-4 columns"><img src="img/second.jpg">
+                <h5>KOENIGSEGG STATEMENT REGARDING INCIDENT AT NURBURGRING</h5>
+                <p>Koenigsegg Automotive AB can confirm reports online that a Koenigsegg One:1 was involved in a crash during testing as part of Industry Pool at the Nurburgring on Monday, 18 July. The driver was taken to hospital as per standard procedures in such situations and was released the same afternoon. Koenigsegg has participated in Industry Pool...</p>
+            </div>
+            <div class="medium-4 columns"><img src="img/third.jpg">
+                <h5>KOENIGSEGG ONE:1 IN CASTROL EDGE 'CLONE ARRIVAL'</h5>
+                <p>Koenigsegg recently had the distinct pleasure of taking the One:1 to Ascari Race Resort in southern Spain to pit man against machine as part of the Castrol EDGE CloneRival campaign. First, we sent one of our test drivers, Christoffer Nygaard, to London to spend some time in a bespoke driving simulator configured to the Koenigsegg...</p>
+            </div>
         </div>
-  <div class="medium-4 columns"><img src ="img/second.jpg"><h5>KOENIGSEGG STATEMENT REGARDING INCIDENT AT NURBURGRING</h5><p>Koenigsegg Automotive AB can confirm reports online that a Koenigsegg One:1 was involved in a crash during testing as part of Industry Pool at the Nurburgring on Monday, 18 July. The driver was taken to hospital as per standard procedures in such situations and was released the same afternoon. Koenigsegg has participated in Industry Pool...</p></div>
-        <div class="medium-4 columns"><img src="img/third.jpg"><h5>KOENIGSEGG ONE:1 IN CASTROL EDGE 'CLONE ARRIVAL'</h5><p>Koenigsegg recently had the distinct pleasure of taking the One:1 to Ascari Race Resort in southern Spain to pit man against machine as part of the Castrol EDGE CloneRival campaign. First, we sent one of our test drivers, Christoffer Nygaard, to London to spend some time in a bespoke driving simulator configured to the Koenigsegg...</p></div>
-</div>
-        </section>
+    </section>
     <!--CONTACT-->
     <footer class="foot">
-    <div class="row">
-  <div class="medium-3 columns">
-      <ul>
-          <li><a href="#">CONTACT</a></li>
-          <li><a href="#">COOKIE POLICY</a></li>
-          <li><a href="#">DISCAIMER</a></li>
-      </ul>
+        <div class="row">
+            <div class="medium-3 columns">
+                <ul>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">COOKIE POLICY</a></li>
+                    <li><a href="#">DISCAIMER</a></li>
+                </ul>
+            </div>
+            <div class="medium-3 columns">
+                <ul>
+                    <li><a href="#">CERTIFIED LEGENDS</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                </ul>
+            </div>
+            <div class="medium-3 columns">
+                <ul>
+                    <li><a href="#">ENGENERING</a></li>
+                    <li><a href="#">WORK</a></li>
+                    <li><a href="#">PRESS</a></li>
+                </ul>
+            </div>
+            <div class="medium-3 columns">
+                <form>
+                    <fieldset class="register-info">
+                        <input type="email" name="email" placeholder="Your Email">
+                        <input type="submit" name="submit" value="Sign Up" style="background-color:#B52B27;color:#fff;">
+                </form>
+            </div>
         </div>
-  <div class="medium-3 columns">
-        <ul>
-     <li><a href="#">CERTIFIED LEGENDS</a></li>
-    <li><a href="#">SERVICE</a></li>
-      </ul>
-        </div>
-<div class="medium-3 columns">
-        <ul>
-    <li><a href="#">ENGENERING</a></li>
-    <li><a href="#">WORK</a></li>
-    <li><a href="#">PRESS</a></li>
-    </ul>
-        </div>
-<div class="medium-3 columns">
-        <form>
-            <fieldset class="register-info">
-    <input type="email" name="email" placeholder="Your Email">
-            <input type="submit" name="submit" value="Send">
-    </form>
-        </div>
-</div>
         <hr>
-        <small>Copyright 2016 - KOENIGSEGG</small>Copyright 2016 - KOENIGSEGG<br>
-        <img src="img/Koenigsegg-logo.jpg">
+        <h5 style="color:#fff;text-align:center;">Copyright 2016 - KOENIGSEGG</h5>
+        <br>
+            <div style="text-align:center;">  <img src="img/Koenigsegg-logo.jpg"></div>
+            <hr>
+            <!--Social icons-->
     </footer>
- <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
-<!--Foundation js-->
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <!--Foundation js-->
     <script src="css/foundation-6.2.3/js/vendor/jquery.js"></script>
     <script src="css/foundation-6.2.3/js/vendor/foundation.min.js"></script>
     <script src="css/foundation-6.2.3/js/vendor/foundation.js"></script>
-  <script>
-    $(document).foundation();
-  </script>
+    <script>
+        $(document).foundation();
+    </script>
 </body>
-</html>
 
+</html>
