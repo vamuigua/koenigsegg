@@ -28,3 +28,9 @@ body{
     text-align: center;
     
 }
+
+/*story*/
+.story{
+    background-image: url(../img/blue.jpg);
+    background-attachment: fixed;
+}
