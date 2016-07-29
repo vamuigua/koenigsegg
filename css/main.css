@@ -20,17 +20,26 @@ body{
 }
 
 /*man*/
-.man{
-}
-
 .man h2{
     color: black;
     text-align: center;
-    
 }
 
 /*story*/
 .story{
     background-image: url(../img/blue.jpg);
+    background-attachment: fixed;
+}
+
+/*BLOGS*/
+.blog h2{
+    text-align: center;
+    
+}
+
+/*Foot*/
+.foot{
+    background-image: url(../img/carfront.jpg);
+    height: 350px;
     background-attachment: fixed;
 }
